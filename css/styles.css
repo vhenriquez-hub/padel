@@ -1,0 +1,473 @@
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/****HEADER****/
+header {
+    padding: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: #8B48BF;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+/****MAIN****/
+#section-padel {
+    background-color: #F5F5F5;
+    display: flex;
+    /*FLEX*/
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.padel-i,.padel-d {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.padel-i img {
+    height: 80%;
+    padding: 10px;
+}
+
+.padel-d {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+}
+
+.padel-d h1{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 114.6%;
+}
+
+#section-different {
+    background-color: #8B48BF;
+    width: 100%;
+    display: flex;
+    /*FLEX*/
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 4% 8rem;
+}
+
+#section-different h2, p {
+    width: 40%;
+}
+
+#section-functions {
+    background-color:#FAFAFA;
+    padding:10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:1%;
+}
+
+article{
+    display: flex;
+}
+
+.article1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.article2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+#section-functions .functions {
+
+    display: flex;
+    align-items: flex-start;
+    padding: 5%;
+    padding: ;
+    gap: 10px;
+}
+
+.number{
+    color:white;
+    background-color: #8B48BF;
+    border-radius: 30px;
+    width: 69px;
+    height: 43px;
+    text-align: center;
+    padding: 12px  10px;
+}
+
+.content{
+    width: 79%;
+    text-align: start;
+}
+
+.description{
+    width: 100%;
+}
+
+/*********************/
+#section-month {
+    padding: 5% 5%;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-month h2 {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#profiles {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.best-month {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.best-month img {
+    width: 60px;
+    position:relative;
+    margin-bottom: -30px;
+}
+
+.best-month h3{
+    text-align: center;
+    padding-top: 40px;
+    width: 90%;
+    color: #3F4868;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.0714px;
+    line-height: 156.6%;
+}
+
+.best-month p{
+    color:#B9B9C1;
+    width: 90%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 156.6%;
+    text-align: center;
+}
+
+#section-month #divbutton-month {
+    width: 100%;
+    text-align: center;
+}
+
+
+#section-teams {
+    background-color: #8B48BF;
+    width: 100%;
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+#goforit {
+    background-color: aliceblue;
+    color: #8B48BF;
+    width: 134px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.section-teams h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+}
+
+/*FOOTER*/
+footer {
+    background-color: black;
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+    align-items: flex-start;
+    padding:10px 200px;
+    margin: 0 0;
+}
+
+.footer {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.footer-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 120px;
+}
+
+.footer-img .footer-icono {
+    text-align: start;
+}
+
+.footer-logo  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    width: 73.68px;
+    height: 25px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.footer-logo .icono{
+    height: 20px;
+    display: flex;
+    gap:10px
+}
+
+footer ul {
+    color: white;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    word-spacing: 1px;
+}
+
+.logo-footer {
+    width: 120px;
+}
+
+.copyright {
+    color: white;
+}
+
+.footer-foco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.footer-final {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-final form {
+    width: 100%;
+}
+
+.footer-final p {
+    width: 100%;
+    color: #8C8C94;
+    font-size: 12.5px;
+}
+
+input[type=email] {
+    border-radius: 50px;
+    width: 201px;
+    height: 42px;
+}
+
+input[type=button] {
+    border-radius: 50px;
+    width: 63px;
+    height: 42px;
+    background-color: #8B48BF;
+    color: white;
+}
+
+input::placeholder {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+/****MEDIA QUERY****/
+@media (max-width: 480px) {
+
+    header ul, button{
+        display: none;
+    }
+
+    header{
+        justify-content: space-between;
+        padding: 40px 20px;
+    }
+
+    .menu{
+        display: flex;
+        justify-content:end;
+        height: 35px;
+    }
+
+    #section-padel{
+        flex-direction: column;
+    }
+
+    .padel-i img{
+        height: 200px;
+    }
+
+    .padel-i,.padel-d {
+        width: 100%;
+    }
+
+    #section-different{
+        flex-direction: column;
+        background-color:#3CDDF3;
+        padding: 5%;
+        width: 100%;
+    }
+
+    #section-different h2, p{
+        width: 100%;
+    }
+
+    #section-different h2{
+        padding-bottom: 1rem;
+    }
+
+    #section-different p{
+        width: 100%;
+    }
+
+    #sections-functions{
+
+        flex-direction: column;
+        width: 100%;
+        padding: 1%;
+    }
+    article{
+        width: 100%;
+        padding: 1%;
+    }
+
+    .article1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .functions{
+
+        flex-direction: column;
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+
+    .content h5{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        background: rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px
+    }
+
+    #section-month{
+        flex-direction: column;
+    }
+
+    #profiles{
+        flex-direction: column;
+    }
+
+    #section-teams{
+        height: 300px;
+        flex-direction: column;
+        background-color: #3CDDF3;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer{
+        width: 100%;
+        margin: 0;
+    }
+    }
+
+    
+
+
+
+
